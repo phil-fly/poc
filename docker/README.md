@@ -1,5 +1,5 @@
 # docker
-CVE-2020-15257 漏洞扫描POC/EXP
+CVE-2020-15257 漏洞扫描POC  附带EXP
 
 ### 漏洞信息
 
@@ -36,3 +36,6 @@ docker version
 ```
 echo -e "GET /version HTTP/1.0\r\n" | sudo nc -U /var/run/docker.sock
 ```
+
+
+
