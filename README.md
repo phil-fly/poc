@@ -23,3 +23,9 @@ POC仓库
 |  poc/exp | 说明 |
 | ------------------------------------------------------------ | -------------- |
 | ✨ [CVE-2017-5638](https://github.com/phil-fly/poc/blob/main/struts2/README.md)   ![](https://img.shields.io/github/stars/phil-fly/poc) | struts2 远程命令执行 |
+
+
+### http.sys
+|  poc/exp | 说明 |
+| ------------------------------------------------------------ | -------------- |
+| ✨ [CVE-2021-31166](https://github.com/phil-fly/poc/blob/main/windows/cve-2021-31166/README.md)   ![](https://img.shields.io/github/stars/phil-fly/poc) | HTTP协议栈远程代码执行漏洞 |
