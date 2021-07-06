@@ -29,3 +29,10 @@ POC仓库
 |  poc/exp | 说明 |
 | ------------------------------------------------------------ | -------------- |
 | ✨ [CVE-2021-31166](https://github.com/phil-fly/poc/blob/main/windows/cve-2021-31166/README.md)   ![](https://img.shields.io/github/stars/phil-fly/poc) | HTTP协议栈远程代码执行漏洞 |
+
+
+### ICS
+[Siemens Simatic S7-1200 - CPU START/STOP Module (Metasploit)](ICS/s7/s7-1200-exp.msf)
+[Siemens Simatic S7-300 - PLC Remote Memory Viewer (Metasploit)](ICS/s7/s7-300-exp.msf)
+[Siemens Simatic S7-300/400 - CPU START/STOP Module (Metasploit)](ICS/s7/s7-300or400-cpu-exp.msf)
+
